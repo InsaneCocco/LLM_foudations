@@ -1,6 +1,7 @@
 # import google.generativeai as genai
 #
-# genai.configure(api_key='AIzaSyDyTcIv1gmxZ9Vu2ptJia1Fm-W7vQpIZXI')
+# openAI apikey
+# genai.configure(api_key=)
 #
 # model = genai.GenerativeModel('gemini-2.0-flash')
 #
@@ -16,9 +17,10 @@ st.title("Azure OpenAI DALL-E 3 Image Generation")
 st.write("This app allows you to generate images using the Azure OpenAI DALL-E 3 model. Enter a prompt to create an image.")
 # Set up Azure OpenAI API details
 
+# openAI apikey
 # Replace with your actual details
-API_KEY = "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"
 ENDPOINT_URL = "https://.openai.azure.com"
+API_KEY = ""
 DEPLOYMENT_NAME = "dalle-3"
 API_VERSION = "2024-02-01"
 
