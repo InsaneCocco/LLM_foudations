@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+lib64/
+include/
+bin/
+share/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.env
+.venv
+
+# Distribution / Packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyCharm
+.idea/
+.vscode/ # VS Code (often used with Python, good to include)
+*.iml
+*.iws
+*.ipr
+*.pydevproject
+.project
+.classpath
+.settings/
+venv/
+.idea_modules/
+
+# macOS
+.DS_Store
+.Trashes
+._*
+.Spotlight-V100
+.TemporaryItems
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotbackup
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# pytest
+.pytest_cache/

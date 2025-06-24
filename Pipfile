@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tf-keras = "*"
+streamlit = "*"
+google-genai = "*"
+transformers = "*"
+tensorflow = "*"
+torch = "*"
+git-lfs = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
