@@ -57,3 +57,7 @@ venv/
 
 # pytest
 .pytest_cache/
+
+
+# Local variables, API keys and env variables
+config.yml
