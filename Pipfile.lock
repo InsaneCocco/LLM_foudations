@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b32f693481145b9b709116e3d57ac5bebcd03f5e5b9e53a0c12aa5b8569ca0d1"
+            "sha256": "1b550b7cfd02533e930fac10de78648f7fee94a24b561cff2b06ea7feb8177c4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -192,6 +192,14 @@
             ],
             "markers": "python_version >= '3.10'",
             "version": "==8.2.1"
+        },
+        "diskcache": {
+            "hashes": [
+                "sha256:2c3a3fa2743d8535d832ec61c2054a1641f41775aa7c556758a109941e33e4fc",
+                "sha256:5e31b2d5fbad117cc363ebaf6b689474db18a1f6438bc82358b024abd4c2ca19"
+            ],
+            "markers": "python_version >= '3'",
+            "version": "==5.6.3"
         },
         "filelock": {
             "hashes": [
@@ -527,6 +535,14 @@
                 "sha256:cf4a99b05376513717ab5d82a0db832c56ccea4fd61a69dbb7bccf2dfb207dbe"
             ],
             "version": "==18.1.1"
+        },
+        "llama-cpp-python": {
+            "hashes": [
+                "sha256:a3a985f558385e2f5de5b663f4e9b0817506d6af98122450142cd98e79216370"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==0.3.9"
         },
         "markdown": {
             "hashes": [

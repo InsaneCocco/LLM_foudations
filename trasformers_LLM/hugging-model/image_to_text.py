@@ -5,9 +5,9 @@ from PIL import Image
 import os
 # print("Current working directory:", os.getcwd())
 
-model = VisionEncoderDecoderModel.from_pretrained("hugging-model/vit-gpt2-image-captioning")
-feature_extractor = ViTImageProcessor.from_pretrained("hugging-model/vit-gpt2-image-captioning")
-tokenizer = AutoTokenizer.from_pretrained("hugging-model/vit-gpt2-image-captioning")
+model = VisionEncoderDecoderModel.from_pretrained("trasformers_LLM/hugging-model/vit-gpt2-image-captioning")
+feature_extractor = ViTImageProcessor.from_pretrained("trasformers_LLM/hugging-model/vit-gpt2-image-captioning")
+tokenizer = AutoTokenizer.from_pretrained("trasformers_LLM/hugging-model/vit-gpt2-image-captioning")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
