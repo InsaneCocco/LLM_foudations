@@ -11,6 +11,7 @@ transformers = "*"
 tensorflow = "*"
 torch = "*"
 git-lfs = "*"
+llama-cpp-python = "*"
 
 [dev-packages]
 
