@@ -61,3 +61,4 @@ venv/
 
 # Local variables, API keys and env variables
 config.yml
+llama-2-7b-chat.Q4_K_M.gguf
