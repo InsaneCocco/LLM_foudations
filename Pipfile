@@ -12,6 +12,8 @@ tensorflow = "*"
 torch = "*"
 git-lfs = "*"
 llama-cpp-python = "*"
+nltk = "*"
+pymupdf = "*"
 
 [dev-packages]
 
