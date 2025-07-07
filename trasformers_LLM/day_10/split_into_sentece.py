@@ -21,7 +21,7 @@ def split_into_sentences(text):
     return sentences
 
 
-pdf_path = '2546340_METLIFE_C_GMM.pdf'
+pdf_path = 'File_to_split'
 text = extract_text_from_pdf(pdf_path)
 # print("Extracted Text:",text)
 sentences = split_into_sentences(text)
