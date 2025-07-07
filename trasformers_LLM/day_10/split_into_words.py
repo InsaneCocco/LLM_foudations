@@ -21,7 +21,7 @@ def split_into_words(text):
     return words
 
 
-pdf_path = 'FILE_TO_SPLIT'
+pdf_path = 'mydocument.docx'
 text = extract_text_from_pdf(pdf_path)
 # print("Extracted Text:",text)
 words_list = split_into_words(text)
