@@ -20,6 +20,8 @@ python-docx = "*"
 chromadb = "*"
 pypdf2 = "*"
 pypdf = "*"
+google-ai-generativelanguage = "==0.6.15"
+langchain = {extras = ["google-genai"], version = "*"}
 
 [dev-packages]
 
